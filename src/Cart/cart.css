@@ -1,0 +1,121 @@
+.Cart-Nav .title {
+  display: flex;
+  color: #f3f3f3;
+  justify-content: center;
+  align-items: center;
+  margin-left: 33%;
+}
+.Cart-Nav h1 {
+  font-family: Segoe UI;
+}
+.Cart-Nav .profile-container {
+  display: flex;
+  justify-content: right;
+}
+.Cart-Nav nav {
+  border-bottom: 2px solid #f3f3f3;
+  align-items: center;
+  padding: 20px;
+  z-index: 9;
+  margin-left: 0rem;
+  height: 4.5rem;
+}
+.Cart-Nav .nav-icons {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 2rem;
+}
+
+/* carditems styling*/
+@media (max-width: 600px) {
+  .cartItem {
+    width: 70%;
+    flex-direction: column;
+  }
+
+  .cartItem img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 43.75rem;
+  height: 15.625rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.cartItem img {
+  margin-top: 1rem;
+  width: 200px;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.Cart-Items .card-details {
+  margin-top: auto;
+  margin-left: 4rem;
+}
+.Cart-Items .card-title {
+  margin-bottom: 1rem;
+}
+.Cart-Items .card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+.Cart-Items .rating-star {
+  color: #d5ab55;
+}
+.Cart-Items .total-reviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+.Cart-Items .card-price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.countHandler input {
+  width: 80px;
+  margin-left: 0;
+  text-align: center;
+  font-weight: bolder;
+}
+.checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+.checkout p {
+  font-weight: bolder;
+}
+.Cart-Items h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}

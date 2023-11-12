@@ -1,0 +1,29 @@
+nav {
+  background-color: rgb(6, 39, 61);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  z-index: 9;
+  height: 4.5rem;
+  margin-left: 18%;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  border-radius: 8px;
+  position: relative;
+  width: 18rem;
+  margin-left: 0rem;
+  border: 0.5px solid gray;
+}
+
+.nav-icons {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 2rem;
+}

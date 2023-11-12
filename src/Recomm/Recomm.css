@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+  .recomm-flex {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .recomm-title {
+    margin-left: 0;
+    font-size: 16px;
+  }
+}
+
+.recomm-flex {
+  display: flex;
+  margin-left: 20rem;
+}
+.recomm-title {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.RecomBtn:hover {
+  background-color: #323232;
+}
+.btns:hover {
+  background-color: #323232;
+  color: #ccc;
+}
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}
