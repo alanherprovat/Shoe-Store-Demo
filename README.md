@@ -1,9 +1,10 @@
 ## Choose-Your-Shoes
 Using React JS, I built a web application with the following features: add-to-cart capability, category, price, and color-wise filtering; additionally, I added search functionality. This screenshot below illustrates the appearance of the web application.
 # Home Page
-![Preview1](https://drive.google.com/uc?export=view&id=1zHcINUNHxGEwnl4dEYrhFyjH7JHbn9Th).
+![Preview1](https://drive.google.com/uc?export=view&id=1zHcINUNHxGEwnl4dEYrhFyjH7JHbn9Th)
+
 #Cart Page
-![Preview2](https://drive.google.com/uc?export=view&id=19DTgrTTEeG-9ntG1F4tQ9dBuwKuDzo2W).
+![Preview2](https://drive.google.com/uc?export=view&id=19DTgrTTEeG-9ntG1F4tQ9dBuwKuDzo2W)
 
 ## Functionalities:
 
