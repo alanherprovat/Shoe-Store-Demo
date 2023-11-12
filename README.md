@@ -8,29 +8,42 @@ Using React JS, I built a web application with the following features: add-to-ca
 
 ## Functionalities:
 
-1. **Gallery Layout:**
-   - Implemented a grid layout for the image gallery.
-   - The gallery display images with one feature image larger than the others.
-2. **Sorting:**
-   - Enabled reordering functionality to allow users to rearrange the order of images in the gallery.
-   - Implemented drag-and-drop functionality using React-DnD.
-3. **Deleting Multiple Images:**
-   - Allows users to select multiple images and delete them.
-   - Provides a clear visual indication of selected images.
-4. **Setting Feature Image:**
-   - Allows users to set a feature image by sorting.
-   - Assumptions are made such that first image (from the LTR direction) as the featured image
-   - The feature image is visually distinct from the other images with a blue border wrapping the grid.
+1. **Home Layout:**
+   - Created a grid-style arrangement for the shoes' display.
+   - Added a sidebar to go through the various filtering options.
+   - The navigation section is equipped with a search bar for easy browsing, along with icons that provide quick access to the shopping cart and a simple way to return to the homepage.
+2. **Searching:**
+   - The advanced search option has been enabled, which executes a search for each substring as it is typed. This feature displays products that closely match the entered search terms.
+3. **Sidebar Filterings:**
+   - Introduced filtering by categories for a more organized view.
+   - Enabled price-based filtering for budget-friendly shopping.
+   - Added the option to filter by color to match your style preferences.
+4. **Add-to-Cart:**
+   - Users are given the ability to select a product by simply clicking the ‘add-to-cart’ button.
+   - The selected products are conveniently added to the cart, each with their respective quantities.
+   - The management of cart products and other related functionalities are efficiently handled by the React Context API
 5. **User Experience:**
-   - A smooth and responsive user experience is ensured.
-   - Implemented transitions/animations for a polished look and feel.
-6. **[Live Demo:](https://reodering-image-gallery-react-dnd.netlify.app/)**
-   - After completing Production build, project is being deployed at [Netlify](https://reodering-image-gallery-react-dnd.netlify.app/).
+   - A seamless user experience is prioritized.
+   - Users can view a subtotal price that reflects the contents of their cart.
+   - Transitions and animations have been incorporated for a sophisticated and interactive interface.
+   - Checkout functionalities are on the roadmap for future implementation.
+   
+6. **[Live Demo:](https://choose-your-shoes.netlify.app/)**
+   - After completing Production build, project is being deployed at [Netlify](https://choose-your-shoes.netlify.app/).
 
+## How to Clone the Project
+Here is a step-by-step guide on how to clone a project from GitHub:
 
-
-
-
+1. **Find the Repository**: Log in to your GitHub account and find the repository you want to clone.
+2. **Copy the URL**: On the master/main page of the repository, click on the `Code` button. You will see an option to clone. Copy the URL.
+3. **Open Terminal**: Depending on your system, you'll use Terminal (with Mac) or Command line (with Windows git bash) to move it to your local directory.
+4. **Change Directory**: Change the current working directory to the location where you want the cloned directory.
+5. **Clone the Repository**: Type `git clone`, and then paste the URL you copied earlier. Press Enter to create your local clone. The command will look something like this:
+    ```
+    git clone https://github.com/alanherprovat/Shoe-Store-Demo.git
+    ```
+6. **Check the Directory**: You should see a folder that just being clonned to your local directory.
+7. Open the project folder in VS Code, launch a terminal, and enter `npm install` to install all necessary dependencies.
 
 
 
